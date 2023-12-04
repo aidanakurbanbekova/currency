@@ -1,0 +1,39 @@
+.inputBox{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  padding: 15px;
+
+}
+.icon{
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+}
+.currency-converter-wrap {
+  position: absolute;
+  background: #fff;
+  max-width: 400px;
+  top: 20%;
+  left: 35%;
+  transform: translate(-50% -50%);
+  border-radius: 5px;
+  padding: 20px;
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 23px;
+
+  }
+}
+:disabled{
+  opacity: 0.5;
+}
+.loading-opacity {
+  opacity: 0.7;
+}
+img{
+  width: 20px;
+}
+

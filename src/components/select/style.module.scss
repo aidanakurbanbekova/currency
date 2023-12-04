@@ -1,0 +1,28 @@
+.select-wrap {
+  width: 90%;
+  margin-bottom: 15px;
+  display: block;
+
+  :global .css-1u9des2-indicatorSeparator {
+    display: none;
+  }
+
+  :global .custom-select__value-container {
+    padding: 2px;
+  }
+}
+
+.custom-option {
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+  align-items: center;
+
+  .label {
+    width: 100%;
+    padding-left: 2px;
+  }
+
+}
+
+
